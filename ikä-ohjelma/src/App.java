@@ -32,5 +32,38 @@ public class App {
         System.out.println("Olet nyt täysi-ikäinen ja voit ajaa autoa");
 }
 
+if (ika == 20 || ika == 30 || ika == 40 || ika == 50 || ika == 60)
+  
+{
+    System.out.println("Onneksi olkoon, täytit pyöreitä");
+}
+
+if (ika == 100)
+    
+{
+    System.out.println("Onneksi olkoon!");
+    System.out.println("Täytit pyöreitä");
+    System.out.println("100 vuotta on jo pitkä aika"); 
+}
+
+if (ika <= 58 || ika <= 64)
+    
+{
+    System.out.println("Pystytte hakemaan varhaiseläkeelle");
+}
+
+if (ika == 65)
+    
+{
+    System.out.println("Toivotamme teille oikein hyviä eläkepäiviä");
+
+}
+
+if (ika >=40 || ika <=50)
+    
+{
+    System.out.println("Toivotamme teille hyvää keski-ikää");
+}
+
 }
 }
