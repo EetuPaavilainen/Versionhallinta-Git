@@ -14,6 +14,23 @@ public class App {
     {
         System.out.println("Olet aikuinen");
     }
+    if (ika == 15)
+    
+    {
+        System.out.println("Saat ajaa mopolla");
+    }
+    if (ika == 16 || ika == 17)
+    
+    {
+        System.out.println("Saat ajaa mopolla tai kevarilla");
+
+    }
+
+    if (ika == 18)
+    
+    {
+        System.out.println("Olet nyt täysi-ikäinen ja voit ajaa autoa");
+}
 
 }
 }
